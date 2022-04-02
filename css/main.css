@@ -1,0 +1,316 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin-left: 0%;
+    margin-top: 0%;
+    overflow-x: hidden;
+    
+    
+}
+
+ul{
+    padding: 0px!important;
+}
+
+.header-1{
+   
+    background-color: #011E36;
+    height: 70px;
+   
+}
+
+.img{
+    max-width: 200px;
+    max-height: 200px;
+    max-height: -20px;
+   
+}
+
+main, .content {
+    margin:0 auto;
+    position: relative;
+}
+
+.redes-sociais ul li{
+    display: inline-block;
+    float: left;
+    list-style: none;
+    margin-left: 50px;
+   margin-right: -40px;
+
+}
+
+.logo{
+    float: left;
+    width: 70%;
+    height: 60%;
+
+}
+
+.redes-sociais {
+   
+    width: 30%;
+    float: left;
+    
+}
+
+.header-2{
+    background-color: white;
+    width: 100%;
+    margin: 0 auto;
+    padding: 12px;
+}
+
+.menu-urls{
+    height: 70px;
+    border-bottom: 3px solid #011E36;
+}
+.menu ul li{
+    display:inline-block;
+    color: #737373;
+    margin-left: 15px;
+    height: 40px;
+}
+
+.menu ul li:hover{
+    border-bottom: 2px solid #64B21C;
+}
+
+.menu ul li a:hover{
+color: #64B21C;
+
+}
+
+.menu ul li a {
+    color: #737373;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.menu{
+    width: 70%;
+    float: left;
+
+}
+
+.busca{
+    text-align: center;
+    width: 23%;
+    float:left;
+}
+
+.busca input{
+    background-image: url('../img/lupa.png');
+    background-repeat: no-repeat;
+    background-position: 95%;
+    height: 30px;
+    margin-top: 10px;
+    padding: 12px;
+    width: 170px;
+   border: solid 2px #64B21C;
+}
+
+.col-100{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+button.slick-prev{
+ font-size: 0px;
+ border: none;
+ width: 48px;
+ height: 48px;
+ z-index: 9;
+ background-color: transparent;
+ position: absolute;
+ top: 20%;
+ left: 3%;
+
+}
+
+button.slick-next{
+ font-size: 0px;
+ border: none;
+ width: 48px;
+ height: 48px;
+ z-index: 9;
+ background-color: transparent;
+ position: absolute;
+ top: 20%;
+ right: 3%;
+}
+
+
+.slick-initialized{
+    overflow: hidden;
+}
+
+.slick-dots li button{
+    font-size: 0px;
+    border: 3px solid #011E36;
+    width: 16px;
+    height: 16px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.slick-dots{
+    margin: 0 auto;
+    width: 40%;
+    position: absolute;
+    left: 50%;
+    top: 575px;
+}
+
+li.slick-active button{
+    background: #64B21C;
+
+}
+
+
+.slick-dots li{
+    padding-left: 10px;
+    display: inline-block;
+}
+
+.texto-destaque{
+    text-align: center;
+}
+
+.texto-destaque h1{
+    color: #011E36;
+    font-size: 30px;
+    
+}
+
+.texto-destaque p {
+    color: #011E36;
+    font-size: 20px;
+
+
+}
+
+.col-3{
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 31%;
+    float: left;
+    position: relative;
+    
+}
+
+.bloco-imagem img {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+.bloco-imagem {
+    height: 290px;
+    border: 1px solid #27adae;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+    width: 30%;
+    
+    
+    
+}
+
+.bloco-imagem b, p {
+    text-align: center;
+    color: #27adae;
+}
+
+.bloco-texto{
+  
+    margin-top: 3em;
+    text-align: center;
+}
+
+h3 {
+    font-weight: normal!important;
+}
+
+.bloco-imagens-texto {
+    background-color: #011E36;
+}
+
+.bloco-imagens-texto:before {
+    width:100%;
+    display:inline-block;
+    content: '';
+    height: 50px;
+    background: white;
+    background-image: url('../img/seta.png');
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
+
+.bloco-img-texto:before{
+    width:100%;
+    display:inline-block;
+    content: '';
+    color: #64B21C;
+    text-align: center;
+    height: 40px;
+    background: #011E36;
+    background-position: center;
+
+
+}
+.bloco-img{
+    width: 100%;
+    margin-top: 20px;
+    margin-right: 20px;
+    float: left;
+    position: relative;
+}
+
+.texto-destaque1 h1{
+    color: #27adae;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.col-4{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.footer h3{
+    text-align: center;
+    
+
+}
+
+.footer{
+    background-image: url(../img/footer.png);
+    
+}
+
+.col-4 p{
+    color: black;
+    text-align:center;
+}
+
+.clock:before{
+    content: '';
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-image: url(../img/clock.png);
+    background-repeat: no-repeat;
+    float: left;
+
+}

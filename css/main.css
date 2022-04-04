@@ -204,7 +204,6 @@ li.slick-active button {
     width: 31%;
     float: left;
     position: relative;
-
 }
 
 .bloco-imagem img {
@@ -220,9 +219,6 @@ li.slick-active button {
     padding-bottom: 15px;
     margin-left: 10px;
     width: 30%;
-
-
-
 }
 
 .bloco-imagem b,
@@ -231,9 +227,11 @@ p {
     color: #27adae;
 }
 
+
 .bloco-texto {
 
-    margin-top: 3em;
+    margin-top: 2em;
+
     text-align: center;
 }
 
@@ -245,6 +243,7 @@ h3 {
     background-color: #011E36;
 }
 
+
 .bloco-imagens-texto:before {
     width: 100%;
     display: inline-block;
@@ -254,8 +253,6 @@ h3 {
     background-image: url('../img/seta.png');
     background-repeat: no-repeat;
     background-position: center;
-
-
 }
 
 
@@ -265,11 +262,9 @@ h3 {
     content: '';
     color: #64B21C;
     text-align: center;
-    height: 40px;
+    height: 20px;
     background: #011E36;
     background-position: center;
-
-
 }
 
 .bloco-img {
@@ -284,6 +279,14 @@ h3 {
     color: #27adae;
     font-size: 30px;
     text-align: center;
+
+}
+
+.texto-destaque2 h1 {
+    color: #27adae;
+    font-size: 30px;
+    text-align: center;
+    height: 20px;
 
 }
 
@@ -366,7 +369,6 @@ p {
     content: '';
     width: 17px;
     height: 13px;
-    /* float: left; */
     display: inline-block;
     background-repeat: no-repeat;
     padding-left: 5px;

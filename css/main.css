@@ -59,7 +59,7 @@ main,
     background-color: white;
     width: 100%;
     margin: 0 auto;
-    padding: 12px;
+    padding: 28px;
 }
 
 .menu-urls {
@@ -108,7 +108,7 @@ main,
     background-repeat: no-repeat;
     background-position: 95%;
     height: 30px;
-    margin-top: 10px;
+    margin-top: -6px;
     padding: 12px;
     width: 170px;
     border: solid 2px #64B21C;
@@ -417,15 +417,18 @@ b {
 
 .login {
 
-    background: linear-gradient(120deg, #27adae, #011E36);
     justify-content: center;
     align-items: center;
+    background-position: -20mm;
+    background: linear-gradient(120deg, #27adae, #011E36);
+
+
 }
 
 .login_container {
     min-height: 400px;
     width: 300px;
-    background-color: #011E36;
+    background: linear-gradient(120deg, #27adae, #011E36);
     box-sizing: border-box;
     padding: 32px;
     border-radius: 8px;
@@ -464,6 +467,7 @@ b {
     margin-bottom: 16px;
     background-color: #737373;
     transition: .3s ease-in-out;
+
 }
 
 .login_input-border::after {
@@ -485,10 +489,10 @@ b {
     height: 48px;
     width: 100%;
     outline: none;
-    background: linear-gradient(120deg, #27adae, #011E36, #27adae);
+    background: linear-gradient(120deg, #27adae, #011E36, cadetblue);
     background-size: 200%;
     margin-bottom: 32px;
-    color: #ffffff;
+    color: black;
     font-size: 16px;
     font-weight: bold;
     border: unset;
@@ -497,12 +501,274 @@ b {
     transition: .5s ease-in-out;
 }
 
-.login_submi:hover {
+.login_submit:hover {
     background-position: right;
 }
 
 .login_reset {
-    font-size: 12px;
-    color: #737373;
+    font-size: 15px;
+    color: black;
     text-decoration: none;
+}
+
+.login::after {
+    width: 100%;
+    display: flex;
+    content: '';
+    height: 50px;
+    background: linear-gradient(120deg, #27adae, #011E36, );
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.login::before {
+    width: 100%;
+    display: flex;
+    content: '';
+    height: 50px;
+    background: linear-gradient(120deg, #27adae, #011E36, );
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.cadastro {
+
+    justify-content: center;
+    align-items: center;
+    background-position: -20mm;
+    background: linear-gradient(120deg, #27adae, #011E36);
+
+
+}
+
+.cadastro_container {
+    min-height: 400px;
+    width: 300px;
+    background: linear-gradient(120deg, #27adae, #011E36);
+    box-sizing: border-box;
+    padding: 32px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 550px;
+}
+
+.cadastro_title {
+    margin-bottom: 32px;
+    color: black;
+}
+
+.cadastro_form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cadastro_input {
+    height: 48px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 8px;
+    border: unset;
+    outline: none;
+
+}
+
+.cadastro_input-border {
+    height: 1px;
+    width: 100%;
+    margin-bottom: 16px;
+    background-color: #737373;
+    transition: .3s ease-in-out;
+
+}
+
+.cadastro_input-border::after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 0;
+    margin-bottom: 16px;
+    background: linear-gradient(120deg, #27adae, #011E36);
+    transition: .3s ease-in-out;
+}
+
+.cadastro_input:focus+.login_input-border::after {
+    width: 100%;
+
+}
+
+.cadastro_submit {
+    height: 48px;
+    width: 100%;
+    outline: none;
+    background: linear-gradient(120deg, #27adae, #011E36, cadetblue);
+    background-size: 200%;
+    margin-bottom: 32px;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    border: unset;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+
+.cadastro_submit:hover {
+    background-position: right;
+}
+
+.cadastro_reset {
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.cadastro::after {
+    width: 100%;
+    display: flex;
+    content: '';
+    height: 50px;
+    background: linear-gradient(120deg, #27adae, #011E36, );
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.cadastro::before {
+    width: 100%;
+    display: flex;
+    content: '';
+    height: 50px;
+    background: linear-gradient(120deg, #27adae, #011E36, );
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.header-3 {
+    position: fixed;
+    background: #011E36;
+    padding: 20px;
+    width: 100%;
+    height: 30px;
+}
+
+.left h3 {
+    color: #fff;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+
+
+.left span {
+    color: cornflowerblue;
+}
+
+
+.sair-btn {
+    padding: 5px;
+    background: cornflowerblue;
+    text-decoration: none;
+    float: right;
+    margin-top: -30px;
+    margin-right: 40px;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    transition: 0.5s;
+    transition-property: background;
+}
+
+.sair-btn:hover {
+    background: cornflowerblue;
+}
+
+.sidebar {
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    margin-top: 70px;
+    padding-top: 30px;
+    left: 0;
+    background: #082c4a;
+
+
+}
+
+.sidebar .image {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+
+}
+
+.sidebar h2 {
+    color: #ccc;
+    margin-top: 0;
+    margin-bottom: 20px;
+
+}
+
+.sidebar a {
+    color: #fff;
+    display: block;
+    width: 100%;
+    line-height: 60px;
+    text-decoration: none;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    transition-property: background;
+
+}
+
+.sidebar a:hover {
+    background: cadetblue;
+}
+
+.sidebar ion-icon {
+    padding-right: 10px;
+}
+
+label #sidebar-btn {
+    z-index: 1;
+    position: fixed;
+    left: 300px;
+    color: #fff;
+    font-size: 25px;
+    margin: 5px 0;
+    cursor: pointer;
+    transition: 0.5s;
+    transition-property: color;
+}
+
+#check:checked~.sidebar {
+    left: -190px;
+}
+
+#check:checked~.sidebar a span {
+    display: none;
+}
+
+#check:checked~.sidebar a {
+    font-size: 20px;
+    margin-left: 170px;
+    width: 80px;
 }
